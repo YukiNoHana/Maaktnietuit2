@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Verkeerssituatie.dir/src/Baan.cpp.obj"
-  "CMakeFiles/Verkeerssituatie.dir/src/Library.cpp.obj"
+  "CMakeFiles/Verkeerssituatie.dir/src/MainTest.cpp.obj"
+  "CMakeFiles/Verkeerssituatie.dir/src/Verkeerslicht.cpp.obj"
+  "CMakeFiles/Verkeerssituatie.dir/src/Verkeerssituatie.cpp.obj"
   "CMakeFiles/Verkeerssituatie.dir/src/Voertuig.cpp.obj"
   "CMakeFiles/Verkeerssituatie.dir/src/parsers/Verkeersparser.cpp.obj"
   "CMakeFiles/Verkeerssituatie.dir/src/parsers/parseBanen.cpp.obj"

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\misak\Documents\Project Software engineering\Maaknietuit"
+CMAKE_SOURCE_DIR = "C:\Users\misak\Documents\Project Software engineering\TrafficSituation"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Verkeerssituatie_debug.dir/depend.make
@@ -65,97 +65,145 @@ include CMakeFiles/Verkeerssituatie_debug.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Verkeerssituatie_debug.dir/flags.make
 
+CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/flags.make
+CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/includes_CXX.rsp
+CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.obj: ../src/Verkeerslicht.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\Verkeerslicht.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\Verkeerslicht.cpp"
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\Verkeerslicht.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\Verkeerslicht.cpp.i
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\Verkeerslicht.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\Verkeerslicht.cpp.s
+
 CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/flags.make
 CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/includes_CXX.rsp
 CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.obj: ../src/Voertuig.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\Voertuig.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\Voertuig.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\Voertuig.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\Voertuig.cpp"
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\Voertuig.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\Voertuig.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\Voertuig.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\Voertuig.cpp.i
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\Voertuig.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\Voertuig.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\Voertuig.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\Voertuig.cpp.s
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/flags.make
 CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/includes_CXX.rsp
 CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.obj: ../src/Baan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\Baan.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\Baan.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\Baan.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\Baan.cpp"
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\Baan.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\Baan.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\Baan.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\Baan.cpp.i
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\Baan.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\Baan.cpp.s
-
-CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/flags.make
-CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/includes_CXX.rsp
-CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.obj: ../src/Library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\Library.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\Library.cpp"
-
-CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\Library.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\Library.cpp.i
-
-CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\Library.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\Library.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\Baan.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\Baan.cpp.s
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/flags.make
 CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/includes_CXX.rsp
 CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.obj: ../src/parsers/Verkeersparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\Verkeersparser.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\parsers\Verkeersparser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\Verkeersparser.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\Verkeersparser.cpp"
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\parsers\Verkeersparser.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\Verkeersparser.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\Verkeersparser.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\Verkeersparser.cpp.i
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\parsers\Verkeersparser.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\Verkeersparser.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\Verkeersparser.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\Verkeersparser.cpp.s
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/flags.make
 CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/includes_CXX.rsp
 CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.obj: ../src/parsers/parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parser.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\parsers\parser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parser.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parser.cpp"
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\parsers\parser.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parser.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parser.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parser.cpp.i
 
 CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\src\parsers\parser.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parser.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parser.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parser.cpp.s
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/flags.make
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/includes_CXX.rsp
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.obj: ../src/parsers/parseBanen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parseBanen.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parseBanen.cpp"
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parseBanen.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parseBanen.cpp.i
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parseBanen.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parseBanen.cpp.s
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/flags.make
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/includes_CXX.rsp
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.obj: ../src/parsers/parseVerkeerslicht.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parseVerkeerslicht.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parseVerkeerslicht.cpp"
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parseVerkeerslicht.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parseVerkeerslicht.cpp.i
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parseVerkeerslicht.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parseVerkeerslicht.cpp.s
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/flags.make
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.obj: CMakeFiles/Verkeerssituatie_debug.dir/includes_CXX.rsp
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.obj: ../src/parsers/parseVoertuigen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parseVoertuigen.cpp.obj -c "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parseVoertuigen.cpp"
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parseVoertuigen.cpp" > CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parseVoertuigen.cpp.i
+
+CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\src\parsers\parseVoertuigen.cpp" -o CMakeFiles\Verkeerssituatie_debug.dir\src\parsers\parseVoertuigen.cpp.s
 
 # Object files for target Verkeerssituatie_debug
 Verkeerssituatie_debug_OBJECTS = \
+"CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.obj" \
 "CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.obj" \
 "CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.obj" \
-"CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.obj" \
 "CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.obj" \
-"CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.obj"
+"CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.obj" \
+"CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.obj" \
+"CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.obj" \
+"CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.obj"
 
 # External object files for target Verkeerssituatie_debug
 Verkeerssituatie_debug_EXTERNAL_OBJECTS =
 
+Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.obj
 Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/src/Voertuig.cpp.obj
 Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.obj
-Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.obj
 Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/Verkeersparser.cpp.obj
 Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parser.cpp.obj
+Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.obj
+Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.obj
+Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.obj
 Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/build.make
 Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/linklibs.rsp
 Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/objects1.rsp
 Verkeerssituatie_debug.exe: CMakeFiles/Verkeerssituatie_debug.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Verkeerssituatie_debug.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Verkeerssituatie_debug.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Verkeerssituatie_debug.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -167,6 +215,6 @@ CMakeFiles/Verkeerssituatie_debug.dir/clean:
 .PHONY : CMakeFiles/Verkeerssituatie_debug.dir/clean
 
 CMakeFiles/Verkeerssituatie_debug.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\misak\Documents\Project Software engineering\Maaknietuit" "C:\Users\misak\Documents\Project Software engineering\Maaknietuit" "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug" "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug" "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug\CMakeFiles\Verkeerssituatie_debug.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\misak\Documents\Project Software engineering\TrafficSituation" "C:\Users\misak\Documents\Project Software engineering\TrafficSituation" "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug" "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug" "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles\Verkeerssituatie_debug.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Verkeerssituatie_debug.dir/depend
 

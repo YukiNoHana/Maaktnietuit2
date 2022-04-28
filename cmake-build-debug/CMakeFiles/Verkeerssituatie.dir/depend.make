@@ -3,19 +3,25 @@
 
 CMakeFiles/Verkeerssituatie.dir/src/Baan.cpp.obj: \
  ../src/Baan.cpp \
- ../src/Baan.h
-CMakeFiles/Verkeerssituatie.dir/src/Library.cpp.obj: \
  ../src/Baan.h \
- ../src/Library.cpp \
+ ../src/DesignByContract.h
+CMakeFiles/Verkeerssituatie.dir/src/MainTest.cpp.obj: \
+ ../src/Baan.h \
+ ../src/DesignByContract.h \
+ ../src/MainTest.cpp \
  ../src/Verkeerslicht.h \
  ../src/Voertuig.h \
  ../src/tinyxml_2_6_2/tinyxml/tinystr.h \
  ../src/tinyxml_2_6_2/tinyxml/tinyxml.h
+CMakeFiles/Verkeerssituatie.dir/src/Verkeerslicht.cpp.obj: \
+ ../src/Verkeerslicht.cpp \
+ ../src/Verkeerslicht.h
 CMakeFiles/Verkeerssituatie.dir/src/Voertuig.cpp.obj: \
  ../src/Voertuig.cpp \
  ../src/Voertuig.h
 CMakeFiles/Verkeerssituatie.dir/src/parsers/Verkeersparser.cpp.obj: \
  ../src/Baan.h \
+ ../src/DesignByContract.h \
  ../src/Verkeerslicht.h \
  ../src/Voertuig.h \
  ../src/parsers/Verkeersparser.cpp \
@@ -25,6 +31,7 @@ CMakeFiles/Verkeerssituatie.dir/src/parsers/Verkeersparser.cpp.obj: \
  ../src/tinyxml_2_6_2/tinyxml/tinyxml.h
 CMakeFiles/Verkeerssituatie.dir/src/parsers/parseBanen.cpp.obj: \
  ../src/Baan.h \
+ ../src/DesignByContract.h \
  ../src/Verkeerslicht.h \
  ../src/Voertuig.h \
  ../src/parsers/Verkeersparser.h \
@@ -35,6 +42,7 @@ CMakeFiles/Verkeerssituatie.dir/src/parsers/parseBanen.cpp.obj: \
  ../src/tinyxml_2_6_2/tinyxml/tinyxml.h
 CMakeFiles/Verkeerssituatie.dir/src/parsers/parseVerkeerslicht.cpp.obj: \
  ../src/Baan.h \
+ ../src/DesignByContract.h \
  ../src/Verkeerslicht.h \
  ../src/Voertuig.h \
  ../src/parsers/Verkeersparser.h \
@@ -45,6 +53,7 @@ CMakeFiles/Verkeerssituatie.dir/src/parsers/parseVerkeerslicht.cpp.obj: \
  ../src/tinyxml_2_6_2/tinyxml/tinyxml.h
 CMakeFiles/Verkeerssituatie.dir/src/parsers/parseVoertuigen.cpp.obj: \
  ../src/Baan.h \
+ ../src/DesignByContract.h \
  ../src/Verkeerslicht.h \
  ../src/Voertuig.h \
  ../src/parsers/Verkeersparser.h \

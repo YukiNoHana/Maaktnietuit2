@@ -10,6 +10,10 @@
 #include <string>
 #include <vector>
 
+/**
+ * Een sub classe van de parser, hier word de baan apart geparseerd
+ */
+
 class parseBanen {
 private:
     std::vector<Baan*>* banen;
@@ -19,8 +23,17 @@ public:
 
     virtual ~parseBanen();
 
+    /**
+     *
+     * @return
+     */
+
     std::vector<Baan*>* getBanen();
 
+    /**
+     *
+     * @param elem
+     */
     void parseBaantje(TiXmlElement* elem);
 
 

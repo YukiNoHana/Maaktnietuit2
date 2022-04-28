@@ -6,95 +6,129 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/Baan.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Baan.cpp
+Baan.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Baan.h
+
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Baan.h
 iostream
 -
 string
 -
+DesignByContract.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/DesignByContract.h
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/Verkeerslicht.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/DesignByContract.h
+assert.h
+-
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/Voertuig.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/MainTest.cpp
+sstream
+-
+tinyxml_2_6_2/tinyxml/tinyxml.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/tinyxml_2_6_2/tinyxml/tinyxml.h
+Voertuig.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Voertuig.h
+Baan.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Baan.h
+Verkeerslicht.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Verkeerslicht.h
 iostream
 -
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/Verkeersparser.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Verkeerslicht.cpp
+Verkeerslicht.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Verkeerslicht.h
+
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Verkeerslicht.h
+string
+-
+
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Voertuig.h
+iostream
+-
+
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/Verkeersparser.cpp
+Verkeersparser.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/Verkeersparser.h
+
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/Verkeersparser.h
 parser.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parser.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parser.h
 ../tinyxml_2_6_2/tinyxml/tinyxml.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/tinyxml_2_6_2/tinyxml/tinyxml.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/tinyxml_2_6_2/tinyxml/tinyxml.h
 string
 -
 ../Baan.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/Baan.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Baan.h
 ../Verkeerslicht.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/Verkeerslicht.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Verkeerslicht.h
 ../Voertuig.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/Voertuig.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/Voertuig.h
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parseBanen.cpp
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parseBanen.cpp
 parseBanen.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parseBanen.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parseBanen.h
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parseBanen.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parseBanen.h
 string
 -
 parser.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parser.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parser.h
 Verkeersparser.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/Verkeersparser.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/Verkeersparser.h
 string
 -
 vector
 -
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parseVerkeerslicht.cpp
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parseVerkeerslicht.cpp
 parseVerkeerslicht.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parseVerkeerslicht.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parseVerkeerslicht.h
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parseVerkeerslicht.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parseVerkeerslicht.h
 string
 -
 parser.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parser.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parser.h
 Verkeersparser.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/Verkeersparser.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/Verkeersparser.h
 string
 -
 vector
 -
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parseVoertuigen.cpp
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parseVoertuigen.cpp
 parseVoertuigen.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parseVoertuigen.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parseVoertuigen.h
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parseVoertuigen.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parseVoertuigen.h
 string
 -
 parser.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parser.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parser.h
 Verkeersparser.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/Verkeersparser.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/Verkeersparser.h
 string
 -
 vector
 -
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/parsers/parser.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/parsers/parser.h
 ../tinyxml_2_6_2/tinyxml/tinyxml.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/tinyxml_2_6_2/tinyxml/tinyxml.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/tinyxml_2_6_2/tinyxml/tinyxml.h
 string
 -
 iostream
 -
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/tinyxml_2_6_2/tinyxml/tinystr.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/tinyxml_2_6_2/tinyxml/tinystr.h
 assert.h
 -
 string.h
 -
 
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/tinyxml_2_6_2/tinyxml/tinyxml.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/tinyxml_2_6_2/tinyxml/tinyxml.h
 ctype.h
 -
 stdio.h
@@ -112,5 +146,5 @@ iostream
 sstream
 -
 tinystr.h
-C:/Users/misak/Documents/Project Software engineering/Maaknietuit/src/tinyxml_2_6_2/tinyxml/tinystr.h
+C:/Users/misak/Documents/Project Software engineering/TrafficSituation/src/tinyxml_2_6_2/tinyxml/tinystr.h
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-project(Maaktnietuit)
+project(TrafficSituation)
 
 set(CMAKE_CXX_STANDARD 98)
 set(CMAKE_CXX_FLAGS "-Wall -Werror")
@@ -12,10 +12,28 @@ include_directories(gtest/include)
 link_directories(gtest/lib)
 
 # Set source files for RELEASE target
-set(RELEASE_SOURCE_FILES src/Voertuig.cpp src/Voertuig.h src/Baan.cpp src/Baan.h src/Library.cpp src/parsers/Verkeersparser.cpp src/parsers/Verkeersparser.h src/parsers/parser.cpp src/parsers/parser.h src/Standaard_Notities.h src/parsers/parseBanen.cpp src/parsers/parseBanen.h src/parsers/parseVerkeerslicht.cpp src/parsers/parseVerkeerslicht.h src/parsers/parseVoertuigen.cpp src/parsers/parseVoertuigen.h)
+set(RELEASE_SOURCE_FILES
+        src/Verkeerslicht.cpp
+        src/Voertuig.cpp
+        src/Baan.cpp
+        src/MainTest.cpp
+        src/parsers/Verkeersparser.cpp
+        src/parsers/parser.cpp
+        src/parsers/parseBanen.cpp
+        src/parsers/parseVerkeerslicht.cpp
+        src/parsers/parseVoertuigen.cpp
+        src/DesignByContract.h src/Verkeerssituatie.cpp src/Verkeerssituatie.h src/Utility.h)
 
 # Set source files for DEBUG target
-set(DEBUG_SOURCE_FILES src/Voertuig.cpp src/Voertuig.h src/Baan.cpp src/Baan.h src/Library.cpp src/parsers/Verkeersparser.cpp src/parsers/Verkeersparser.h src/parsers/parser.cpp src/parsers/parser.h)
+set(DEBUG_SOURCE_FILES
+        src/Verkeerslicht.cpp
+        src/Voertuig.cpp
+        src/Baan.cpp
+        src/parsers/Verkeersparser.cpp
+        src/parsers/parser.cpp
+        src/parsers/parseBanen.cpp
+        src/parsers/parseVerkeerslicht.cpp
+        src/parsers/parseVoertuigen.cpp)
 
 # Create RELEASE target
 add_executable(Verkeerssituatie ${RELEASE_SOURCE_FILES})

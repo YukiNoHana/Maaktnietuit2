@@ -10,7 +10,9 @@
 #include <string>
 #include <vector>
 
-
+/**
+ * Sub klasse van parser, hierin worden de voertuigen geparseerd
+ */
 class parseVoertuigen {
 private:
     std::vector<Voertuig*>* voertuigen;

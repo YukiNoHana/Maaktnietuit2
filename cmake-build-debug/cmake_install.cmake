@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/misak/Documents/Project Software engineering/Maaknietuit
+# Install script for directory: C:/Users/misak/Documents/Project Software engineering/TrafficSituation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ttt")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Maaktnietuit")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/misak/Documents/Project Software engineering/Maaknietuit/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/misak/Documents/Project Software engineering/TrafficSituation/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

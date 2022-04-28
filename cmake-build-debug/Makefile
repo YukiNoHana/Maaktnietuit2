@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\misak\Documents\Project Software engineering\Maaknietuit"
+CMAKE_SOURCE_DIR = "C:\Users\misak\Documents\Project Software engineering\TrafficSituation"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug\CMakeFiles" "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\misak\Documents\Project Software engineering\Maaknietuit\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\misak\Documents\Project Software engineering\TrafficSituation\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -168,32 +168,80 @@ src/Baan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/Baan.cpp.s
 .PHONY : src/Baan.cpp.s
 
-src/Library.obj: src/Library.cpp.obj
-.PHONY : src/Library.obj
+src/MainTest.obj: src/MainTest.cpp.obj
+.PHONY : src/MainTest.obj
 
 # target to build an object file
-src/Library.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/Library.cpp.obj
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.obj
-.PHONY : src/Library.cpp.obj
+src/MainTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/MainTest.cpp.obj
+.PHONY : src/MainTest.cpp.obj
 
-src/Library.i: src/Library.cpp.i
-.PHONY : src/Library.i
+src/MainTest.i: src/MainTest.cpp.i
+.PHONY : src/MainTest.i
 
 # target to preprocess a source file
-src/Library.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/Library.cpp.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.i
-.PHONY : src/Library.cpp.i
+src/MainTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/MainTest.cpp.i
+.PHONY : src/MainTest.cpp.i
 
-src/Library.s: src/Library.cpp.s
-.PHONY : src/Library.s
+src/MainTest.s: src/MainTest.cpp.s
+.PHONY : src/MainTest.s
 
 # target to generate assembly for a file
-src/Library.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/Library.cpp.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/Library.cpp.s
-.PHONY : src/Library.cpp.s
+src/MainTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/MainTest.cpp.s
+.PHONY : src/MainTest.cpp.s
+
+src/Verkeerslicht.obj: src/Verkeerslicht.cpp.obj
+.PHONY : src/Verkeerslicht.obj
+
+# target to build an object file
+src/Verkeerslicht.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/Verkeerslicht.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.obj
+.PHONY : src/Verkeerslicht.cpp.obj
+
+src/Verkeerslicht.i: src/Verkeerslicht.cpp.i
+.PHONY : src/Verkeerslicht.i
+
+# target to preprocess a source file
+src/Verkeerslicht.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/Verkeerslicht.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.i
+.PHONY : src/Verkeerslicht.cpp.i
+
+src/Verkeerslicht.s: src/Verkeerslicht.cpp.s
+.PHONY : src/Verkeerslicht.s
+
+# target to generate assembly for a file
+src/Verkeerslicht.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/Verkeerslicht.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/Verkeerslicht.cpp.s
+.PHONY : src/Verkeerslicht.cpp.s
+
+src/Verkeerssituatie.obj: src/Verkeerssituatie.cpp.obj
+.PHONY : src/Verkeerssituatie.obj
+
+# target to build an object file
+src/Verkeerssituatie.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/Verkeerssituatie.cpp.obj
+.PHONY : src/Verkeerssituatie.cpp.obj
+
+src/Verkeerssituatie.i: src/Verkeerssituatie.cpp.i
+.PHONY : src/Verkeerssituatie.i
+
+# target to preprocess a source file
+src/Verkeerssituatie.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/Verkeerssituatie.cpp.i
+.PHONY : src/Verkeerssituatie.cpp.i
+
+src/Verkeerssituatie.s: src/Verkeerssituatie.cpp.s
+.PHONY : src/Verkeerssituatie.s
+
+# target to generate assembly for a file
+src/Verkeerssituatie.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/Verkeerssituatie.cpp.s
+.PHONY : src/Verkeerssituatie.cpp.s
 
 src/Voertuig.obj: src/Voertuig.cpp.obj
 .PHONY : src/Voertuig.obj
@@ -255,6 +303,7 @@ src/parsers/parseBanen.obj: src/parsers/parseBanen.cpp.obj
 # target to build an object file
 src/parsers/parseBanen.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/parsers/parseBanen.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.obj
 .PHONY : src/parsers/parseBanen.cpp.obj
 
 src/parsers/parseBanen.i: src/parsers/parseBanen.cpp.i
@@ -263,6 +312,7 @@ src/parsers/parseBanen.i: src/parsers/parseBanen.cpp.i
 # target to preprocess a source file
 src/parsers/parseBanen.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/parsers/parseBanen.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.i
 .PHONY : src/parsers/parseBanen.cpp.i
 
 src/parsers/parseBanen.s: src/parsers/parseBanen.cpp.s
@@ -271,6 +321,7 @@ src/parsers/parseBanen.s: src/parsers/parseBanen.cpp.s
 # target to generate assembly for a file
 src/parsers/parseBanen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/parsers/parseBanen.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseBanen.cpp.s
 .PHONY : src/parsers/parseBanen.cpp.s
 
 src/parsers/parseVerkeerslicht.obj: src/parsers/parseVerkeerslicht.cpp.obj
@@ -279,6 +330,7 @@ src/parsers/parseVerkeerslicht.obj: src/parsers/parseVerkeerslicht.cpp.obj
 # target to build an object file
 src/parsers/parseVerkeerslicht.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/parsers/parseVerkeerslicht.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.obj
 .PHONY : src/parsers/parseVerkeerslicht.cpp.obj
 
 src/parsers/parseVerkeerslicht.i: src/parsers/parseVerkeerslicht.cpp.i
@@ -287,6 +339,7 @@ src/parsers/parseVerkeerslicht.i: src/parsers/parseVerkeerslicht.cpp.i
 # target to preprocess a source file
 src/parsers/parseVerkeerslicht.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/parsers/parseVerkeerslicht.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.i
 .PHONY : src/parsers/parseVerkeerslicht.cpp.i
 
 src/parsers/parseVerkeerslicht.s: src/parsers/parseVerkeerslicht.cpp.s
@@ -295,6 +348,7 @@ src/parsers/parseVerkeerslicht.s: src/parsers/parseVerkeerslicht.cpp.s
 # target to generate assembly for a file
 src/parsers/parseVerkeerslicht.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/parsers/parseVerkeerslicht.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVerkeerslicht.cpp.s
 .PHONY : src/parsers/parseVerkeerslicht.cpp.s
 
 src/parsers/parseVoertuigen.obj: src/parsers/parseVoertuigen.cpp.obj
@@ -303,6 +357,7 @@ src/parsers/parseVoertuigen.obj: src/parsers/parseVoertuigen.cpp.obj
 # target to build an object file
 src/parsers/parseVoertuigen.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/parsers/parseVoertuigen.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.obj
 .PHONY : src/parsers/parseVoertuigen.cpp.obj
 
 src/parsers/parseVoertuigen.i: src/parsers/parseVoertuigen.cpp.i
@@ -311,6 +366,7 @@ src/parsers/parseVoertuigen.i: src/parsers/parseVoertuigen.cpp.i
 # target to preprocess a source file
 src/parsers/parseVoertuigen.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/parsers/parseVoertuigen.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.i
 .PHONY : src/parsers/parseVoertuigen.cpp.i
 
 src/parsers/parseVoertuigen.s: src/parsers/parseVoertuigen.cpp.s
@@ -319,6 +375,7 @@ src/parsers/parseVoertuigen.s: src/parsers/parseVoertuigen.cpp.s
 # target to generate assembly for a file
 src/parsers/parseVoertuigen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie.dir\build.make CMakeFiles/Verkeerssituatie.dir/src/parsers/parseVoertuigen.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Verkeerssituatie_debug.dir\build.make CMakeFiles/Verkeerssituatie_debug.dir/src/parsers/parseVoertuigen.cpp.s
 .PHONY : src/parsers/parseVoertuigen.cpp.s
 
 src/parsers/parser.obj: src/parsers/parser.cpp.obj
@@ -361,9 +418,15 @@ help:
 	@echo ... src/Baan.obj
 	@echo ... src/Baan.i
 	@echo ... src/Baan.s
-	@echo ... src/Library.obj
-	@echo ... src/Library.i
-	@echo ... src/Library.s
+	@echo ... src/MainTest.obj
+	@echo ... src/MainTest.i
+	@echo ... src/MainTest.s
+	@echo ... src/Verkeerslicht.obj
+	@echo ... src/Verkeerslicht.i
+	@echo ... src/Verkeerslicht.s
+	@echo ... src/Verkeerssituatie.obj
+	@echo ... src/Verkeerssituatie.i
+	@echo ... src/Verkeerssituatie.s
 	@echo ... src/Voertuig.obj
 	@echo ... src/Voertuig.i
 	@echo ... src/Voertuig.s

@@ -33,4 +33,11 @@ std::string Voertuig::getInfo(){
     return vehicle;
 }
 
+void Voertuig::printVoertuig() {
+    Voertuig bmw;
+    std::cout << "Tijd: " << '\n';
+    std::cout << "positie: " << bmw.getPositie() << '\n';
+    std::cout << "baan: " << bmw.getBaan() << std::endl;
+}
+
 //Gebruik maken van cout om te printen, je kan een integer ook printen

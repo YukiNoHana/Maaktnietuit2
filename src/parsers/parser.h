@@ -9,30 +9,30 @@
 #include <string>
 #include <iostream>
 
+/**
+ * Basis klasse van parsers
+ */
 class parser {
 private:
     TiXmlElement *root;
     TiXmlDocument Doc;
-
-
 public:
     parser();
-
-
-    TiXmlElement *getElem() const;
-
-    void setElem(TiXmlElement *element);
-
-    parser(const TiXmlDocument &doc);
-
     virtual ~parser();
-    bool loadFile(std::string lol);
 
-    parser(TiXmlElement *elem);
+    /**
+     *
+     * @param file Inladen van een file
+     * @return Een bool met true of false of het file gelezen kan worden
+     */
+    bool loadFile(std::string file);
 
-    const TiXmlDocument &getDoc() const;
+    /**
+     *
+     * @return Verkijgen van root van het document/text, teruggeven in TiXmlElement
+     */
+    TiXmlElement* getRoot(){return root;}
 
-    void setDoc(const TiXmlDocument &doc);
 
 };
 

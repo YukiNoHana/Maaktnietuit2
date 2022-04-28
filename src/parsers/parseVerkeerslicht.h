@@ -10,7 +10,9 @@
 #include <string>
 #include <vector>
 
-
+/**
+ * Sub classe van parser, hier wordt verkeerslichten in geparseerd
+ */
 class parseVerkeerslicht {
 private:
     std::vector<Verkeerslicht*>* verkeerslichten;
